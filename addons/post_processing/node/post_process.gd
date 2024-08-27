@@ -27,7 +27,7 @@ func _update_shader_parameters( _name : String, _material : Material) -> void:
 			_material.set_shader_parameter("brightness", configuration.ColorCorrectionBrightness)
 			_material.set_shader_parameter("saturation", configuration.ColorCorrectionSaturation)
 		"ChromaticAberration":
-			_material.set_shader_parameter("offset", configuration.StrenghtCA)
+			_material.set_shader_parameter("offset", configuration.StrengthCA)
 		"Blur":
 			_material.set_shader_parameter("lod", configuration.L_O_D)
 		"FishEye":
